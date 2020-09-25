@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="@dimen/ivsize"
+        android:layout_height="@dimen/ivsize"
+        android:maxWidth="300dp"
+        android:id="@+id/ivChatImg"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding"
+        android:id="@+id/tvChatText"
+        android:textSize="@dimen/fontsize1"
+        android:text="Space jam gardens"
+        android:padding="@dimen/padding"
+        app:layout_constraintEnd_toStartOf="@id/ivChatImg"
+        app:layout_constraintBottom_toBottomOf="@id/ivChatImg"
+        app:layout_constraintTop_toTopOf="@id/ivChatImg"
+        android:background="@drawable/background_right"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

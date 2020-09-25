@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding">
+    <ImageView
+        android:layout_width="@dimen/ivsize"
+        android:layout_height="@dimen/ivsize"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        android:id="@+id/ivUserImage"/>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Username"
+        android:id="@+id/tvUsername"/>
+
+    
+
+</LinearLayout>
